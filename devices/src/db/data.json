@@ -1,0 +1,13 @@
+[
+    {"id": 1, "nombre": "PRT", "contenido_en": null},
+    {"id": 2, "nombre": "XUO", "contenido_en": "PRT", "r_enlace": 2},
+    {"id": 3, "nombre": "MAR", "contenido_en": "PRT", "r_enlace": 4},
+    {"id": 4, "nombre": "UIO", "contenido_en": "MAR", "p_radioactivo": 1, "r_enlace": 6},
+    {"id": 5, "nombre": "IIE", "contenido_en": "MAR", "p_radioactivo": 3, "r_enlace": 2},
+    {"id": 6, "nombre": "FQT", "contenido_en": "XUO", "r_enlace": 1},
+    {"id": 7, "nombre": "SUC", "contenido_en": "XUO", "r_enlace": 3},
+    {"id": 8, "nombre": "KIX", "contenido_en": "FQT", "p_radioactivo": 2, "r_enlace": 4},
+    {"id": 9, "nombre": "HUE", "contenido_en": "FQT", "p_radioactivo": 4, "r_enlace": 2},
+    {"id": 10, "nombre": "GUO", "contenido_en": "SUC", "p_radioactivo": 1, "r_enlace": 1},
+    {"id": 11, "nombre": "MOX", "contenido_en": "SUC", "p_radioactivo": 1, "r_enlace": 1}
+]

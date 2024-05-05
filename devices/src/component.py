@@ -5,6 +5,5 @@ class Component:
         self.contained_in = contained_in
         self.radioactive_potential = radioactive_potential
         self.linked_to = linked_to
-        self.left = None
-        self.right = None
+        self.children = []
         

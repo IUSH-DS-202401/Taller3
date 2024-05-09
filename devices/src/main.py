@@ -1,4 +1,5 @@
 from dataLoader import DataLoader
+from binaryTree import BinaryTree
 import os
 
 def main():
@@ -7,7 +8,15 @@ def main():
 
     data_loader = DataLoader(json_file)
     data = data_loader.load_data()
-    print(data)
+    tree = BinaryTree()
+    tree.build(data)
+    tree.calculate_potential(tree.root)
+    isBalanced = tree.is_balanced(tree.root)
+    if isBalanced:
+        print("The device is radioactively balanced.")
+    else:
+        print("The device is not radioactively balanced.")
+    
 
 if __name__ == "__main__":
     main()
